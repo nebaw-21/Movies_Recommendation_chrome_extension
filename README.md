@@ -1,28 +1,46 @@
-# MOVIE FINDER- Chrome Extension
 
-A Chrome Extension that lets you search about your favourite movies, anywhere, anytime you want.
+# Movies Recommendation Chrome Extension
 
-## Prototype Demo
+## Overview
+The Movies Recommendation Chrome Extension allows users to search for and discover information about their favorite movies. This project serves as a learning experience for creating a Chrome extension from scratch, focusing on the use of the `manifest.json` file, integrating APIs, and building a user-friendly interface.
 
-![Movie Finder](./demo_gif.gif)
+## Features
+- Search for movies by title
+- Retrieve detailed information about selected movies
+- User-friendly interface for easy navigation
 
-![Movie Finder](./demo_image.png)
+## Technology Stack
+- **JavaScript**: For functionality and API integration
+- **HTML**: For structuring the extension's interface
+- **CSS**: For styling the extension
 
-## Thought behind this project
+## Getting Started
 
-This project is intended for learning to create a chrome extension from scratch. Understanding the use of manifest.json, how to use API's or serverless functions to fetch data and how to simply incorporate these facilities in a chrome extension is the aim of this projct. The complete tutorial on _Creating Your First Chrome Extension_ can be found [here](https://batrakawaljeetsingh.medium.com/creating-your-first-chrome-extension-17d3ad3c7d5 "Tutorial").
+### Prerequisites
+- Google Chrome installed on your machine
 
-## How to setup locally?
+### Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/nebaw-21/Movies_Recommendation_chrome_extension.git
+   ```
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" in the top right corner.
+4. Click on "Load unpacked" and select the cloned repository folder.
 
-For setting up the project on a local machine
+### Usage
+- Click on the extension icon in the Chrome toolbar to open the extension.
+- Enter the movie title in the search bar and press enter to retrieve information.
 
-- Fork this repository.
-- Clone the repository using simple zip download or use the command
-  ```
-      git clone https://github.com/{Your-Username}/Portfolio.git
-  ```
-- And that's about it. To unpack the extension and try it out, move to Chrome's _Extension Management_ tab. Enable Developer mode and click on _Load Unpacked_. The select the directory of the project.
+## License
+This project does not have a specified license. Please check the repository for updates.
 
-The extension should now be visible in the console. Click on the icon to use it.
+## Contributing
+Contributions are welcome! Please fork the repository and submit a pull request for any improvements or features you'd like to add.
 
-### For full tutorial on how to create your first chrome extension, visit [Tutorial](https://batrakawaljeetsingh.medium.com/creating-your-first-chrome-extension-17d3ad3c7d5 "here").
+## Acknowledgments
+- [Movie Database API](https://www.themoviedb.org/documentation/api) for providing movie data
+- Inspiration from various Chrome extension tutorials
+````
+
+Feel free to modify any sections according to your specific project details!
